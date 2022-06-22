@@ -56,3 +56,23 @@ body {
   padding: 1.3rem 0;
   border: 1px solid #d3d3d3;
 }
+
+.login-group:nth-child(1) {
+  min-height: 19rem;
+}
+
+.logo {
+  height: 3rem;
+}
+
+.profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.profile img {
+  height: 6rem;
+}

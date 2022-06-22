@@ -1,61 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <title>Instagram</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles/style.css">
-  <title>Instagram</title>
-</head>
+  <body>
+    <div class="instagram-wrapper">
+      <div class="instagram-phone">
+        <img
+          src="assets/img/instagram-celular.png"
+          alt="Imagem de um celular"
+        />
+      </div>
 
-<body>
-  <div class="instagram-wrapper">
+      <div class="instagram-continue">
+        <div class="login-group">
+          <img
+            src="assets/img/instagram-logo.png"
+            alt="Logo do Instagram"
+            class="logo"
+          />
 
-    <div class="instagram-phone">
-      <img src="assets/img/instagram-celular.png" alt="Imagem de um celular">
-    </div>
+          <div class="profile">
+            <img src="assets/img/profile.jpg" alt="Foto de Perfil " />
+          </div>
 
-    <div class="instagram-continue">
-
-      <div class="login-group">
-
-        <img src="assets/img/instagram-logo.png" alt="Logo do Instagram" class="logo">
-
-        <div class="profile">
-          <img src="assets/img/profile.jpg" alt="Foto de Perfil ">
+          <a href="#" class="login">Continue as ${user_name}</a>
+          <a href="#" class="logout">Remove Account</a>
         </div>
 
-        <a href="#" class="login">Continue as ${user_name}</a>
-        <a href="#" class="logout">Remove Account</a>
-      </div>
+        <div class="login-group">
+          <p class="not-user">Not ${user_name}?</p>
 
-      <div class="login-group">
-
-        <p class="not-user">
-          Not ${user_name}?
-        </p>
-
-        <p class="not-user">
-          <span class="link-blue">Switch account</span>
-          ou
-          <span class="link-blue">Sign up</span>
-        </p>
-
-      </div>
-
-      <div class="get-app">
-        <p>Get the app</p>
-        <div class="stores">
-          <a href="#" alt="Logo apple store" class="download"></a>
-          <a href="#" alt="Logo play store" class="download"></a>
+          <p class="not-user">
+            <span class="link-blue">Switch account</span>
+            ou
+            <span class="link-blue">Sign up</span>
+          </p>
         </div>
 
+        <div class="get-app">
+          <p>Get the app</p>
+          <div class="stores">
+            <a href="#" alt="Logo apple store" class="download"></a>
+            <a href="#" alt="Logo play store" class="download"></a>
+          </div>
+        </div>
       </div>
-
     </div>
-
-  </div>
-</body>
-
+  </body>
 </html>
