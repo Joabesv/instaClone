@@ -16,3 +16,22 @@ body {
   display: flex;
   justify-content: center;
 }
+
+.instagram-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 60%;
+  height: 100vh;
+}
+
+.instagram-phone {
+  display: flex;
+  align-items: center; /* Alinhamento vertical para o centro eixo-Y */
+  justify-content: center; /* Alinhamento horizontal para o centro eixo-X */
+  width: 50%;
+}
+
+.instagram-phone img {
+  height: 50rem;
+}
