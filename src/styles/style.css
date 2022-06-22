@@ -35,3 +35,24 @@ body {
 .instagram-phone img {
   height: 50rem;
 }
+
+.instagram-continue {
+  /*  Invertemos o eixo com o flex direction */
+  display: flex;
+  align-items: center; /* Horizontal */
+  justify-content: space-around; /* Vertical */
+  flex-direction: column;
+  width: 50%;
+  height: 34rem;
+}
+
+.login-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ffffff;
+  width: 100%;
+  padding: 1.3rem 0;
+  border: 1px solid #d3d3d3;
+}
