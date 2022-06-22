@@ -76,3 +76,54 @@ body {
 .profile img {
   height: 6rem;
 }
+
+.login {
+  background-color: #0095f6;
+  color: #ffffff;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.logout {
+  color:  #0095f6;
+  margin-top: 1rem;
+}
+
+.not-user {
+  color: #a0a0a0
+}
+
+.link-blue {
+  color: #0095f6
+}
+
+.get-app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 0.5rem 0;
+}
+
+.stores {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1rem;
+}
+
+.download {
+  height: 3rem;
+  width: 10rem;
+  background-size: cover;
+}
+
+.download:nth-child(1) {
+  background-image: url('../assets/img/apple-button.png');
+}
+
+.download:nth-child(2) {
+  background-image: url('../assets/img/googleplay-button.png');
+}
